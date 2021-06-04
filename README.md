@@ -1,6 +1,8 @@
 # TCC - RafaelaLorenzini
 Neste trabalho foi utilizado o Overleaf.com com programação em LaTeX.
-Análise da Presença de Trihalometanos na Água para Consumo Humano do Estado do Rio Grande do Sul no período de 2014 a 2020
+
+Denominado:
+"Análise da Presença de Trihalometanos na Água para Consumo Humano do Estado do Rio Grande do Sul no período de 2014 a 2020"
 
 Trabalho de Conclusão de Curso apresentado à COMGRAD/ENQ da Universidade Federal do Rio Grande do Sul como parte dos requisitospara a obtenção do título de Bacharel em Engenharia Química.
 
