@@ -1,4 +1,4 @@
-# TCC - Rafaela-Lorenzini
+# TCC - RafaelaLorenzini
 Neste trabalho foi utilizado o Overleaf.com com programação em LaTeX.
 Análise da Presença de Trihalometanos na Água para Consumo Humano do Estado do Rio Grande do Sul no período de 2014 a 2020
 
@@ -9,6 +9,6 @@ Orientadora: Prof.ª Dr.ª Mariliz Gutterres Soares
 Coorientador: MSc. Luciano Barros Zini
 
 BANCA EXAMINADORA:
-Prof. Dr. Jorge Otávio Trierweiler, Universidade Federal do Rio Grande do SulMSc. 
-Aristeu de Oliveira Junior, Ministério da SaúdeMSc. 
-Henrique Mezzomo, Secretaria Estadual de Saúde do Rio Grande do Sul
+Prof. Dr. Jorge Otávio Trierweiler, Universidade Federal do Rio Grande do Sul
+MSc. Aristeu de Oliveira Junior, Ministério da Saúde
+MSc. Henrique Mezzomo, Secretaria Estadual de Saúde do Rio Grande do Sul
