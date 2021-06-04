@@ -1,4 +1,4 @@
-# TCC - RafaelaLorenzini
+# TCC - Rafaela_Lorenzini
 Neste trabalho foi utilizado o Overleaf.com com programação em LaTeX.
 
 Denominado:
