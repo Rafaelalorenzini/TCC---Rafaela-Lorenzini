@@ -1,0 +1,444 @@
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+\newpage
+
+% ==============================================
+% ELEMENTOS PRÉ-TEXTUAIS
+% ==============================================
+\pretextual
+
+% ----------------------------------------------
+% Capa
+% ----------------------------------------------
+%\imprimircapa
+% Capa personalizada sem o uso de \imprimircapa
+\begin{capa} 
+   \center
+   \ABNTEXchapterfont\large\bfseries{\imprimirinstituicao} 
+   \vfill
+   %\vspace*{1cm}
+   \ABNTEXchapterfont\large\bfseries\textsc{\MakeUppercase{\imprimirautor}}
+   \vfill
+   \begin{center}
+   \ABNTEXchapterfont\Large\bfseries{\MakeUppercase{\imprimirtitulo}}
+   \end{center}
+   \vfill
+   \vspace*{5cm}
+   \large\bfseries\MakeTextUppercase{\imprimirlocal} \\
+   \large\bfseries\imprimirdata
+   \vspace*{1cm}
+\end{capa}
+
+% ----------------------------------------------
+% Folha de rosto
+% ----------------------------------------------
+% folha de rosto personalizada sem uso de \imprimirfolhaderosto
+%\makeatletter
+%\renewcommand{\folhaderostocontent}{
+%\begin{center}
+ % {\ABNTEXchapterfont\large\imprimirautor}
+  %\vspace*{\fill}%\vspace*{\fill}
+  %\begin{center}
+  %\ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+  %\end{center}
+  %\vspace*{\fill}
+  
+  %\abntex@ifnotempty{\imprimirpreambulo}{%
+   % \hspace{.45\textwidth}
+    %\begin{minipage}{.5\textwidth}
+    %\SingleSpacing
+    %\imprimirpreambulo
+    %\end{minipage}%
+    %\vspace*{\fill}
+  %}%
+
+  %\abntex@ifnotempty{\imprimirorientador}{%
+  %\hspace{.45\textwidth}
+  %\begin{minipage}{.5\textwidth}
+%	{\imprimirorientadorRotulo~\imprimirorientador}%
+ % \end{minipage}%
+  %}%
+  
+  %\begin{center}
+  
+   % \abntex@ifnotempty{\imprimircoorientador}{%
+  %\hspace{.45\textwidth}
+ % \begin{minipage}{.5\textwidth}
+%	{\imprimircoorientadorRotulo~\imprimircoorientador}%
+  %\end{minipage}%
+  %}%
+    
+
+
+  
+ % \vspace*{\fill}
+  %{\abntex@ifnotempty{\imprimirinstituicao}{\imprimirinstituicao\vspace*{\fill}}}
+
+  %{\large\imprimirlocal}
+  %\par
+  %{\large\imprimirdata}
+ % \vspace*{1cm}
+%\end{center}
+%}
+%\makeatother
+
+% Folha de rosto (o * indica que haverá a ficha bibliográfica)
+%\imprimirfolhaderosto*
+
+
+\begin{folhadeaprovacao}
+
+  \begin{center}
+  {\ABNTEXchapterfont\large\imprimirautor}
+
+  \vspace*{\fill}\vspace*{\fill}
+   \begin{center}
+    	\ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+    \end{center}
+  \vspace*{\fill}
+
+  \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+    	\imprimirpreambulo 
+    \end{minipage}%
+
+
+
+
+  %\vspace*{\fill}
+   % \begin{flushleft}
+  %	  Aprovado em 17 de Maio de 2021. \\
+   % \end{flushleft}
+ % \vspace*{\fill}
+  
+    %BANCA EXAMINADORA:% \imprimirlocal, \today :
+  
+   
+   % Orientador\\
+   %Coorientador \\
+  % Prof. Dr. Jorge Otávio Trierweiler --  Avaliador UFRGS\\
+  % MSc. Aristeu de Oliveira Junior --  Avaliador Externo
+ %  MSc. Henrique Mezzomo --  Avaliador Externo
+  
+ 
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+     
+    \vspace*{\fill} \vspace*{\fill}
+    \hspace{.5\textwidth}
+    \begin{minipage}{.6\textwidth}
+    	Orientadora:~\imprimirorientador \\
+        Coorientador:~\imprimircoorientador
+    \end{minipage}%
+    
+ 
+    \vspace*{\fill}
+    \hspace{.4\textwidth}
+    \begin{minipage}{1.5\textwidth}
+    BANCA EXAMINADORA:\\
+    	Prof. Dr. Jorge Otávio Trierweiler, Universidade Federal do Rio Grande do Sul \\
+        MSc. Aristeu de Oliveira Junior, Ministério da Saúde\\
+   MSc. Henrique Mezzomo, Secretaria Estadual de Saúde do Rio Grande do Sul
+    \end{minipage}%
+    \begin{center}
+    \vspace*{0.5cm}
+       {\large\imprimirlocal}
+       \par
+       {\large\imprimirdata}
+       \vspace*{1.2cm}
+       \end{center}
+\end{center}
+  
+\end{folhadeaprovacao}
+
+% ----------------------------------------------
+% Inserir a ficha bibliografica catalográfica
+% ----------------------------------------------
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de catalogação-na-publicação''. Você pode utilizar este modelo como referência. Porem, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver com o documento, salve-o como PDF no diretório do seu projeto e substitua todo o conteúdo de implementação deste arquivo pelo comando abaixo:
+
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+\begin{fichacatalografica}
+	\sffamily
+	\vspace*{\fill}					% Posição vertical
+  	\begin{center}					% Minipage Centralizado
+	\fbox{
+    \begin{minipage}[t]{1,5cm} 
+    \vspace{0.5cm} 
+     %Algum número que o bibliotecario ira gerar
+    \end{minipage}
+    
+    \begin{minipage}[t]{11cm}	% Largura
+	\small
+    \vspace{0.5cm}
+	%\imprimirautor		% ATENCAO - SUBSTITUIR POR %Sobrenome, Nome do autor
+    Lorenzini, Rafaela 
+	
+	\hspace{0.5cm} 
+    \imprimirtitulo  / \imprimirautor. -- \imprimirdata.
+	
+	\hspace{0.5cm} 
+    \pageref{LastPage} p. : il. (algumas color.) ; 30 cm.\\
+	
+    \hspace{0.5cm}
+	\imprimirtipotrabalho~--~Universidade do Rio Grande do Sul, Departamento de Engenharia Química, Porto Alegre, RS, \imprimirdata. \hfill 
+    
+    \hspace{0.5cm}
+    \imprimirorientadorRotulo~\imprimirorientador ;
+    \imprimircoorientadorRotulo~\imprimircoorientador\\
+	
+	\hspace{0.5cm}
+		1. Desinfecção
+		2. Subprodutos de Desinfecção
+		3. Trihalometanos
+        \\
+		%I. \imprimirtitulo \\
+        %II. \imprimirorientador \\
+    
+%	\hspace{8.75cm} CDU 621.3 %algum outro numero
+	
+    \end{minipage}}
+    
+ %   \hspace{0.5cm}
+  %  Dados Internacionais de Catalogação na Publicação (CIP) \\  	
+   % (Bibliotecário: Nome Sobrenome – CRB 10/1298)
+	
+    \end{center}
+\end{fichacatalografica}
+
+% ----------------------------------------------
+% Inserir errata
+% ----------------------------------------------
+% \begin{errata}
+% Elemento opcional da \citeonline[4.2.1.2]{NBR14724:2011}. Exemplo:
+
+% \vspace{\onelineskip}
+
+% FERRIGNO, C. R. A. \textbf{Tratamento de neoplasias ósseas apendiculares com reimplantação de enxerto ósseo autólogo autoclavado associado ao plasma rico em plaquetas}: estudo crítico na cirurgia de preservação de membro em cães. 2011. 128 f. Tese (Livre-Docência) - Faculdade de Medicina Veterinária e Zootecnia, Universidade de São Paulo, São Paulo, 2011.
+
+% \begin{table}[htb]
+% \center
+% \footnotesize
+% \begin{tabular}{|p{1.4cm}|p{1cm}|p{3cm}|p{3cm}|}
+%   \hline
+%    \textbf{Folha} & \textbf{Linha}  & \textbf{Onde se lê}  & \textbf{Leia-se}  \\
+%     \hline
+%     1 & 10 & auto-conclavo & autoconclavo\\
+%    \hline
+% \end{tabular}
+% \end{table}
+
+% \end{errata}
+
+% ----------------------------------------------
+% Inserir folha de aprovação
+% ----------------------------------------------
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma imagem da página assinada pela banca com o comando abaixo:
+%
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+
+
+% ----------------------------------------------
+% Dedicatória
+% ----------------------------------------------
+\newpage
+
+\begin{dedicatoria}
+\null
+\vfill
+\begin{flushright}
+\hfill  {{\textit {Dedicado a minha família.}}}
+
+\newpage
+\end{flushright}
+\end{dedicatoria}
+
+
+
+
+
+
+
+% ----------------------------------------------
+% Agradecimentos
+% ----------------------------------------------
+\begin{agradecimentos}
+
+    Agradeço primeiramente à minha família, Antonino Lorenzini e Rosa Bernardete Lorenzini, por todo o amor e apoio dedicado a mim durante toda a minha vida e também ao meu irmão Charles Lorenzini por todo apoio, companheirismo e exemplo.
+    
+    À minha orientadora Prof.ª. Dr.ª Mariliz pelos ensinamentos e direcionamentos que balizaram este documento. Ao meu coorientador MSc. Luciano pelas
+    reflexões e experiências que guiaram esta monografia. À Universidade Federal do Rio Grande do Sul pela qualidade e pelo ensino de excelência.
+    
+    Ao Centro Estadual de Vigilância em Saúde (CEVS), principalmente ao Programa da Vigilância da Qualidade da Água para Consumo Humano (VIGIAGUA) pelos dois anos de estágio de muito acolhimento e aprendizado em meio a uma pandemia. Agradecimento especial à Julce Clara da Silva, primeiro grande exemplo de engenheira química a seguir. Ao André Jarenkow, à Camila Bernardes Azambuja e ao Luciano Barros Zini, três grandes exemplos de engenheiros químicos. Todo meu carinho especial à Lisiane de Barros Trombin, mulher forte e com coração enorme. À Margot Vieceli e a Maria de Fátima Freitas Korndorfer pelo acolhimento desde o primeiro momento de estágio. Aos estagiários que comigo foram parceiros nessa jornada, Eduardo, Luana e Mariana. E a todos colegas do CEVS e VIGIAGUA. Além disso, quero agradecer e dizer que o VIGIAGUA pertence ao SUS.
+    
+    Finalmente, um grande agradecimento aos meus colegas de curso, aos meus amigos, e em especial à Ana Carolina por todo amor e companheirismo.
+    
+    
+    
+    
+    
+    
+\end{agradecimentos}
+
+% ----------------------------------------------
+% Epígrafe
+% ----------------------------------------------
+% Importante: O autor da epígrafe deve constar na lista de referências
+%\begin{epigrafe}
+ %    \vspace*{\fill}
+ %	\begin{flushright}
+ %		\textit{``Os que se encantam com a prática sem a ciência \\
+  %      são como os timoneiros que entram no navio sem timão nem bússola,\\
+   %     nunca tendo certeza do seu destino."\\
+%         (Leonardo da Vinci)}
+ %	\end{flushright}
+ %\end{epigrafe}
+
+% ||||||||||||||||||||||||||||||||||||||||||||||
+% RESUMOS
+% ||||||||||||||||||||||||||||||||||||||||||||||
+
+% ----------------------------------------------
+% Resumo em português
+% ----------------------------------------------
+% Importante: De acordo com a NBR6024 as palavras-chaves devem ser separadas entre si por ponto e devem ter somente a primeira palavra escrita com letra maiúscula
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+	
+Embora a desinfecção na água seja importante para remoção de patógenos, pode haver a geração de produtos secundários da desinfecção, onde destacam-se os trihalometanos (THMs). Estudos recentes sugerem a associação entre a exposição a longo prazo a THMs na água e câncer humano, como câncer de bexiga e colorretal. A taxa e o grau de formação de THMs aumentam em função da concentração de cloro e ácido húmico, temperatura, pH e concentração de íon brometo. O objetivo deste trabalho foi avaliar os resultados de presença de produtos secundários da desinfecção na água para consumo humano de sistemas de abastecimento de água do Rio Grande do Sul de 2014 a 2020, a partir dos dados de controle realizados pelos prestadores de serviço de abastecimento de água. Foram avaliados 17.245 análises, onde 8.761 tiveram presença de THMs. A água dos sistemas abastecidos por manancial superficial apresentaram maior concentração de THMs comparada ao manancial subterrâneo e misto. 33 municípios apresentaram presença de THMs com concentração acima do valor máximo permitido (0,1 $mg.L^-^1$), o que corresponde a 1.925.192 pessoas expostas pelo menos em algum momento entre 2014 a 2020. A correlação de Spearman mostrou que o aumento de chuva ou temperatura ocasiona um aumento de concentração de THMs. Ao avaliar os compostos de THMs entre 2014 e 2015, as concentrações foram maiores para clorofórmio e bromodiclorometano. Como possíveis ações para reduzir a concentração de THMs pode-se otimizar a clarificação para remoção de precursores, reduzir a concentração de cloro ou substituir o produto de desinfecção.
+
+ 
+   
+	\vspace{\onelineskip}
+ 
+	\noindent 
+	\textbf{Palavras-chaves}: Desinfecção. Produtos secundários da desinfecção (PSD). Trihalometanos (THM). 
+\end{resumo}
+
+% ----------------------------------------------
+% Resumo em inglês
+% ----------------------------------------------
+% Importante: De acordo com a NBR6024 as palavras-chaves devem ser separadas entre si por ponto e devem ter somente a primeira palavra escrita com letra maiúscula
+\begin{resumo}[Abstract]
+\begin{otherlanguage*}{english}
+	Although disinfection in water is important for the removal of pathogens, there may be the generation of secondary disinfection products, in which trihalomethanes (THM) stand out. Recent studies suggest an association between long-term exposure to trihalomethanes in water and human cancer, such as bladder and colorectal cancer. The rate and degree of THMs formation increase depending on chlorine and humic acid concentration, temperature, pH, and bromide ion concentration. The objective of this work was to evaluate the results of the presence of secondary products of disinfection in water for human consumption of water supply systems in the Rio Grande do Sul from 2014 to 2020, based on the control data carried out by water supply service providers. 17,245 analyzes were evaluated, where 8,761 had the presence of THMs. The water in the systems supplied by surface water showed a higher concentration of THMs compared to the underground and mixed water sources. 33 municipalities showed the presence of THMs with a concentration above the maximum allowed value (0.1 $mg.L^-^1$), which corresponds to 1,925,192 people exposed at least some time between 2014 and 2020. Spearman's correlation showed that the increase in rain or temperature causes an increase in THMs concentration. When evaluating THMs compounds between 2014 and 2015, the concentrations were higher for chloroform and bromodichloromethane. As possible actions to reduce the THMs concentration, the clarification can be optimized to remove precursors, reduce the chlorine concentration or replace the disinfection product. 
+    
+	\vspace{\onelineskip}
+ 
+	\noindent 
+	\textbf{Key-words}: Disinfection. Disinfection byproduct (DBP). Trihalomethanes (THMs). 
+\end{otherlanguage*}
+\end{resumo}
+
+% ----------------------------------------------
+% resumo em francês 
+% ----------------------------------------------
+% Importante: De acordo com a NBR6024 as palavras-chaves devem ser separadas entre si por ponto e devem ter somente a primeira palavra escrita com letra maiúscula
+% \begin{resumo}[Résumé]
+%  \begin{otherlanguage*}{french}
+%     Il s'agit d'un résumé en français.
+ 
+%    \textbf{Mots-clés}: latex. abntex. publication de textes.
+%  \end{otherlanguage*}
+% \end{resumo}
+
+% ----------------------------------------------
+% resumo em espanhol
+% ----------------------------------------------
+% Importante: De acordo com a NBR6024 as palavras-chaves devem ser separadas entre si por ponto e devem ter somente a primeira palavra escrita com letra maiúscula
+% \begin{resumo}[Resumen]
+%  \begin{otherlanguage*}{spanish}
+%    Este es el resumen en español.
+  
+%    \textbf{Palabras clave}: latex. abntex. publicación de textos.
+%  \end{otherlanguage*}
+ 
+% \end{resumo}
+
+% ----------------------------------------------
+% inserir lista de ilustrações (ou figuras)
+% ----------------------------------------------
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+% Diferentes tipos de listas podem ser criadas por meio de macros do memoir.
+
+% ----------------------------------------------
+% inserir lista de tabelas
+% ----------------------------------------------
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+
+% ----------------------------------------------
+% inserir lista de quadros (ex.: \begin{quadro} \end{quadro})
+% ----------------------------------------------
+% \pdfbookmark[0]{\listofquadrosname}{loq}
+% \listofquadros*
+% \cleardoublepage
+
+% ----------------------------------------------
+% inserir lista de abreviaturas e siglas
+% ----------------------------------------------
+% Importante: As abreviaturas e siglas devem estar em ordem alfabética
+\begin{siglas}
+\item[CONAMA] Conselho Nacional do Meio Ambiente
+\item[CORSAN] Companhia Riograndense de Saneamento
+\item[COD] Carbono Orgânico Dissolvido
+\item[COT] Carbono Orgânico Total
+\item[ETA] Estação de Tratamento de Água
+\item[EUA] Estados Unidos da América
+\item[HA] Haloaldeído 
+\item[HAA] Ácido Haloacético
+\item[HAN] Haloacetonitrilo
+\item[HAconAm] Haloacetamida
+\item[HK] Halocetona
+\item[HNM] Halonitrometano
+\item[IARC] Agência Internacional de Pesquisa em Câncer
+\item[INMET] Instituto Nacional de Meteorologia
+\item[LD] Limite de Detecção
+\item[LQ] Limite de Quantificação
+\item[MOA] Matéria Orgânica Aquagênica
+\item[MON] Matéria Orgânica Natural
+\item[MOP] Matéria Orgânica Pedogênica
+\item[MS] Ministério da Saúde
+\item[pH] Potencial Hidrogeniônico
+\item[PDF] Formato de Documento Portátil
+\item[POA] Processo Oxidativo Avançado
+\item[PSD] Produtos Secundários da Desinfecção
+\item[SAA] Sistema de Abastecimento de Água
+\item[SH] Substâncias Húmicas
+\item[SISAGUA] Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+\item[THM] Trihalometanos
+\item[USEPA] Agência de Proteção Abiental dos Estados Unidos 
+\item[UV] Ultravioleta 
+\item[VMP] Valor Máximo Permitido
+\item[WHO] World Health Organization
+
+\end{siglas}
+
+
+% ----------------------------------------------
+% inserir lista de símbolos
+% ----------------------------------------------
+% Importante: Os símbolos devem estar na ordem de aparecimento no texto.
+%\begin{simbolos}
+ % \item[$ \Gamma $] Letra grega Gama
+  %\item[$ \Lambda $] Lambda
+ % \item[$ \zeta $] Letra grega minúscula zeta
+ % \item[$ \in $] Pertence
+%\end{simbolos}
+
+% ----------------------------------------------
+% inserir o sumário
+% ----------------------------------------------
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
