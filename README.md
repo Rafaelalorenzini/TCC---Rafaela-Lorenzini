@@ -9,6 +9,6 @@ Orientadora: Prof.ª Dr.ª Mariliz Gutterres Soares
 Coorientador: MSc. Luciano Barros Zini
 
 BANCA EXAMINADORA:
-Prof. Dr. Jorge Otávio Trierweiler, Universidade Federal do Rio Grande do Sul
-MSc. Aristeu de Oliveira Junior, Ministério da Saúde
+Prof. Dr. Jorge Otávio Trierweiler, Universidade Federal do Rio Grande do Sul.
+MSc. Aristeu de Oliveira Junior, Ministério da Saúde.
 MSc. Henrique Mezzomo, Secretaria Estadual de Saúde do Rio Grande do Sul
