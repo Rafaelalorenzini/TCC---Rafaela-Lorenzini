@@ -1,6 +1,8 @@
 # TCC - Rafaela_Lorenzini
 Neste trabalho foi utilizado o Overleaf.com com programação em LaTeX.
 
+o script está em main.tex
+
 Denominado:
 "Análise da Presença de Trihalometanos na Água para Consumo Humano do Estado do Rio Grande do Sul no período de 2014 a 2020"
 
