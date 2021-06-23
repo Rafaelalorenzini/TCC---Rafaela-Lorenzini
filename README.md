@@ -1,7 +1,7 @@
 # TCC - Rafaela_Lorenzini
 Neste trabalho foi utilizado o Overleaf.com com programação em LaTeX.
 
-# O script está em main.tex
+O script está em main.tex
 
 a versão final em PDF pode ser baixada em: https://drive.google.com/file/d/1cVbhdvAEYX1gNMj8Ay5L0WlDbfFeqPtj/view?usp=sharing
 
